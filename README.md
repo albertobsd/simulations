@@ -93,3 +93,36 @@ random output:
 2 times 164 bits in 1,  this is 0.000002 
 1 times 166 bits in 1,  this is 0.000001 
 ```
+
+## bits_landing
+
+This program fill "rounds" times a 32 bytes buffer (256 bits) with random data
+from the RNG of libgmp in each round the program count the size in bits that 
+are needed for each number The output is the sumary  of times that each number
+landing in some bit range and its percentage.
+In general the amount of times that the key lands in 256 bits is near of the
+50% all decrementing bits are the half of the previous value
+
+random output:
+```
+1 times with lengt 237 bits,  this is 0.000001
+1 times with lengt 238 bits,  this is 0.000001
+3 times with lengt 239 bits,  this is 0.000003
+9 times with lengt 240 bits,  this is 0.000009
+18 times with lengt 241 bits,  this is 0.000018
+30 times with lengt 242 bits,  this is 0.000030
+67 times with lengt 243 bits,  this is 0.000067
+128 times with lengt 244 bits,  this is 0.000128
+258 times with lengt 245 bits,  this is 0.000258
+484 times with lengt 246 bits,  this is 0.000484
+996 times with lengt 247 bits,  this is 0.000996
+1921 times with lengt 248 bits,  this is 0.001921
+3869 times with lengt 249 bits,  this is 0.003869
+7935 times with lengt 250 bits,  this is 0.007935
+15762 times with lengt 251 bits,  this is 0.015762
+31212 times with lengt 252 bits,  this is 0.031212
+62354 times with lengt 253 bits,  this is 0.062354
+124899 times with lengt 254 bits,  this is 0.124899
+249131 times with lengt 255 bits,  this is 0.249131
+500922 times with lengt 256 bits,  this is 0.500922
+```
