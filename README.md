@@ -126,3 +126,103 @@ random output:
 249131 times with lengt 255 bits,  this is 0.249131
 500922 times with lengt 256 bits,  this is 0.500922
 ```
+
+## speeds
+
+This program show the amount of time need to crack a specific bit range acording
+to some predefined speeds.
+
+This program was made to know the amount of time needed to scan a bit range for 
+the bitcoin puzzles.
+
+output:
+
+```
+Puzzle 64 @ 1 Megakeys/s  (10^6):       292471 years
+Puzzle 64 @ 1 Gigakeys/s  (10^9):       292 years
+Puzzle 64 @ 1 Terakeys/s  (10^12):      0 years
+Puzzle 64 @ 1 Petakeys/s  (10^15):      0 years
+Puzzle 64 @ 1 Exakeys/s  (10^18):       0 years
+Puzzle 64 @ 1 Zettakeys/s  (10^21):     0 years
+Puzzle 64 @ 1 Yottakeys/s  (10^24):     0 years
+Puzzle 68 @ 1 Megakeys/s  (10^6):       9359078 years
+Puzzle 68 @ 1 Gigakeys/s  (10^9):       9359 years
+Puzzle 68 @ 1 Terakeys/s  (10^12):      9 years
+Puzzle 68 @ 1 Petakeys/s  (10^15):      0 years
+Puzzle 68 @ 1 Exakeys/s  (10^18):       0 years
+Puzzle 68 @ 1 Zettakeys/s  (10^21):     0 years
+Puzzle 68 @ 1 Yottakeys/s  (10^24):     0 years
+Puzzle 120 @ 1 Megakeys/s  (10^6):      21074771622667996462833 years
+Puzzle 120 @ 1 Gigakeys/s  (10^9):      21074771622667996462 years
+Puzzle 120 @ 1 Terakeys/s  (10^12):     21074771622667996 years
+Puzzle 120 @ 1 Petakeys/s  (10^15):     21074771622667 years
+Puzzle 120 @ 1 Exakeys/s  (10^18):      21074771622 years
+Puzzle 120 @ 1 Zettakeys/s  (10^21):    21074771 years
+Puzzle 120 @ 1 Yottakeys/s  (10^24):    21074 years
+Puzzle 125 @ 1 Megakeys/s  (10^6):      674392691925375886810658 years
+Puzzle 125 @ 1 Gigakeys/s  (10^9):      674392691925375886810 years
+Puzzle 125 @ 1 Terakeys/s  (10^12):     674392691925375886 years
+Puzzle 125 @ 1 Petakeys/s  (10^15):     674392691925375 years
+Puzzle 125 @ 1 Exakeys/s  (10^18):      674392691925 years
+Puzzle 125 @ 1 Zettakeys/s  (10^21):    674392691 years
+Puzzle 125 @ 1 Yottakeys/s  (10^24):    674392 years
+Puzzle 130 @ 1 Megakeys/s  (10^6):      21580566141612028377941058 years
+Puzzle 130 @ 1 Gigakeys/s  (10^9):      21580566141612028377941 years
+Puzzle 130 @ 1 Terakeys/s  (10^12):     21580566141612028377 years
+Puzzle 130 @ 1 Petakeys/s  (10^15):     21580566141612028 years
+Puzzle 130 @ 1 Exakeys/s  (10^18):      21580566141612 years
+Puzzle 130 @ 1 Zettakeys/s  (10^21):    21580566141 years
+Puzzle 130 @ 1 Yottakeys/s  (10^24):    21580566 years
+Puzzle 135 @ 1 Megakeys/s  (10^6):      690578116531584908094113865 years
+Puzzle 135 @ 1 Gigakeys/s  (10^9):      690578116531584908094113 years
+Puzzle 135 @ 1 Terakeys/s  (10^12):     690578116531584908094 years
+Puzzle 135 @ 1 Petakeys/s  (10^15):     690578116531584908 years
+Puzzle 135 @ 1 Exakeys/s  (10^18):      690578116531584 years
+Puzzle 135 @ 1 Zettakeys/s  (10^21):    690578116531 years
+Puzzle 135 @ 1 Yottakeys/s  (10^24):    690578116 years
+Puzzle 140 @ 1 Megakeys/s  (10^6):      22098499729010717059011643709 years
+Puzzle 140 @ 1 Gigakeys/s  (10^9):      22098499729010717059011643 years
+Puzzle 140 @ 1 Terakeys/s  (10^12):     22098499729010717059011 years
+Puzzle 140 @ 1 Petakeys/s  (10^15):     22098499729010717059 years
+Puzzle 140 @ 1 Exakeys/s  (10^18):      22098499729010717 years
+Puzzle 140 @ 1 Zettakeys/s  (10^21):    22098499729010 years
+Puzzle 140 @ 1 Yottakeys/s  (10^24):    22098499729 years
+Puzzle 145 @ 1 Megakeys/s  (10^6):      707151991328342945888372598701 years
+Puzzle 145 @ 1 Gigakeys/s  (10^9):      707151991328342945888372598 years
+Puzzle 145 @ 1 Terakeys/s  (10^12):     707151991328342945888372 years
+Puzzle 145 @ 1 Petakeys/s  (10^15):     707151991328342945888 years
+Puzzle 145 @ 1 Exakeys/s  (10^18):      707151991328342945 years
+Puzzle 145 @ 1 Zettakeys/s  (10^21):    707151991328342 years
+Puzzle 145 @ 1 Yottakeys/s  (10^24):    707151991328 years
+Puzzle 150 @ 1 Megakeys/s  (10^6):      22628863722506974268427923158445 years
+Puzzle 150 @ 1 Gigakeys/s  (10^9):      22628863722506974268427923158 years
+Puzzle 150 @ 1 Terakeys/s  (10^12):     22628863722506974268427923 years
+Puzzle 150 @ 1 Petakeys/s  (10^15):     22628863722506974268427 years
+Puzzle 150 @ 1 Exakeys/s  (10^18):      22628863722506974268 years
+Puzzle 150 @ 1 Zettakeys/s  (10^21):    22628863722506974 years
+Puzzle 150 @ 1 Yottakeys/s  (10^24):    22628863722506 years
+Puzzle 155 @ 1 Megakeys/s  (10^6):      724123639120223176589693541070266 years
+Puzzle 155 @ 1 Gigakeys/s  (10^9):      724123639120223176589693541070 years
+Puzzle 155 @ 1 Terakeys/s  (10^12):     724123639120223176589693541 years
+Puzzle 155 @ 1 Petakeys/s  (10^15):     724123639120223176589693 years
+Puzzle 155 @ 1 Exakeys/s  (10^18):      724123639120223176589 years
+Puzzle 155 @ 1 Zettakeys/s  (10^21):    724123639120223176 years
+Puzzle 155 @ 1 Yottakeys/s  (10^24):    724123639120223 years
+Puzzle 160 @ 1 Megakeys/s  (10^6):      23171956451847141650870193314248525 years
+Puzzle 160 @ 1 Gigakeys/s  (10^9):      23171956451847141650870193314248 years
+Puzzle 160 @ 1 Terakeys/s  (10^12):     23171956451847141650870193314 years
+Puzzle 160 @ 1 Petakeys/s  (10^15):     23171956451847141650870193 years
+Puzzle 160 @ 1 Exakeys/s  (10^18):      23171956451847141650870 years
+Puzzle 160 @ 1 Zettakeys/s  (10^21):    23171956451847141650 years
+Puzzle 160 @ 1 Yottakeys/s  (10^24):    23171956451847141 years
+Puzzle 256 @ 1 Megakeys/s  (10^6):      1835871531540401373407708412745559168131740612197318060720331403 years
+Puzzle 256 @ 1 Gigakeys/s  (10^9):      1835871531540401373407708412745559168131740612197318060720331 years
+Puzzle 256 @ 1 Terakeys/s  (10^12):     1835871531540401373407708412745559168131740612197318060720 years
+Puzzle 256 @ 1 Petakeys/s  (10^15):     1835871531540401373407708412745559168131740612197318060 years
+Puzzle 256 @ 1 Exakeys/s  (10^18):      1835871531540401373407708412745559168131740612197318 years
+Puzzle 256 @ 1 Zettakeys/s  (10^21):    1835871531540401373407708412745559168131740612197 years
+Puzzle 256 @ 1 Yottakeys/s  (10^24):    1835871531540401373407708412745559168131740612 years
+```
+
+There is no puzzle 256, but it show the time to scan the 256 bit space.
+
